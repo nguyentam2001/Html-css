@@ -1,10 +1,28 @@
-.container {
+/* course */
+
+.coures-item {
   background-color: orange;
+  height: 260px;
+  text-align: center;
 }
 
-.title {
+.coures-item h1 {
+  font-size: 3em;
   color: white;
-  padding: 100px 0;
-  text-align: center;
-  font-size: 4em;
+  line-height: 260px;
+}
+
+.category {
+  height: 260px;
+  background-color: violet;
+}
+
+.category ul {
+  list-style: none;
+}
+
+@media only screen and (max-width: 1023px) {
+  .coures-item {
+    margin-top: 20px;
+  }
 }

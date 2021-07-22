@@ -8,14 +8,50 @@
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="./grid.css" />
   </head>
+  <!-- 
+    column: .col
+    prefix class:
+     -c- mobile
+     -m-tablet
+     -l-pc
+     vai trò hiển thị các thành phần khóa học trên website
+   -->
   <body>
     <div class="grid wide container">
       <div class="row">
-        <h1 class="title">Column1</h1>
-        <h1 class="title">Column2</h1>
-        <h1 class="title">Column3</h1>
-        <h1 class="title">Column4</h1>
-        <h1 class="title">Column10</h1>
+        <div class="col l-3 m-0 c-0">
+          <div class="category">
+            <ul>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col l-9">
+          <div class="row">
+            <div class="col l-4 m-6 c-12">
+              <div class="coures-item">
+                <h1>Course 1</h1>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="coures-item">
+                <h1>Course 1</h1>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="coures-item">
+                <h1>Course 1</h1>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+              <div class="coures-item">
+                <h1>Course 1</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
