@@ -27,6 +27,41 @@
   padding-right: 4px;
 }
 
+/* mobile c- */
+
+.c-0{
+  display: none;
+}
+
+.c-1{
+  flex: 0 0 8.333333%;
+  max-width: 8.3333333%;
+}
+
+.c-2{
+  flex: 0 0 16.66667%;
+  max-width: 16.666667%;
+}
+
+.c-3{
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.c-4{
+  flex:0 0 33.333333%;
+  max-width: 33.33333%;
+}
+
+.c-5{
+  flex:0 0 41.6666667%;
+  max-width: 41.66666667%;
+}
+
+.c-6{
+  flex:0 0 ;
+}
+
 /* > tablet   */
 
 @media (min-width: 740px) {
