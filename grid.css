@@ -27,12 +27,16 @@
   padding-right: 4px;
 }
 
+<<<<<<< HEAD
 /* mobile c- */
 
+=======
+>>>>>>> 21918be6d89d903259ea32a434da94a838ee746e
 .c-0{
   display: none;
 }
 
+<<<<<<< HEAD
 .c-1{
   flex: 0 0 8.333333%;
   max-width: 8.3333333%;
@@ -62,6 +66,8 @@
   flex:0 0 ;
 }
 
+=======
+>>>>>>> 21918be6d89d903259ea32a434da94a838ee746e
 /* > tablet   */
 
 @media (min-width: 740px) {
