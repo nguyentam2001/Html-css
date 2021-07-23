@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: whitesmoke;
+}
+
+.element {
+  min-height: 380px;
+  background-color: orange;
+  line-height: 380px;
+  text-align: center;
+  font-size: 2.3em;
+  color: whitesmoke;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.element-filter {
+  font-size: 2.3em;
+  color: whitesmoke;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: orange;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.element-item {
+  font-size: 2.3em;
+  color: whitesmoke;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: orange;
+  height: calc(380px - 40px - 16px);
+  line-height: calc(380px - 40px - 16px);
+  text-align: center;
+}
