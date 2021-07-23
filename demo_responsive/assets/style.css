@@ -37,3 +37,24 @@
   line-height: calc(380px - 40px - 16px);
   text-align: center;
 }
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  min-width: 330px;
+  background-color: blueviolet;
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none;
+  }
+}
+
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
